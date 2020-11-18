@@ -1,0 +1,13 @@
+
+.header {
+    -fx-background-color: rgb(45, 45, 55);
+}
+
+.closeButton {
+    -fx-background-color: transparent;
+    -fx-cursor: hand;
+}
+
+.closeButton:hover {
+    -fx-background-color: rgb(74, 74, 92);
+}

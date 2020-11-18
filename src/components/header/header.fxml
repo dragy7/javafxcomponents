@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import de.jensd.fx.glyphs.fontawesome.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<BorderPane maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" onMouseDragged="#moveDragged" onMousePressed="#movePressed" prefHeight="25.0" prefWidth="600.0" styleClass="header" stylesheets="@../../res/css/style.css" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="components.header.Header">
+   <right>
+      <Button maxHeight="25.0" maxWidth="50.0" minHeight="20.0" minWidth="50.0" mnemonicParsing="false" onAction="#closeApp" prefHeight="20.0" prefWidth="50.0" styleClass="closeButton" textFill="WHITE" BorderPane.alignment="CENTER">
+         <graphic>
+            <FontAwesomeIconView fill="#bfbfbf" glyphName="CLOSE" strokeType="OUTSIDE" strokeWidth="0.0" wrappingWidth="10.428571701049805" />
+         </graphic>
+      </Button>
+   </right>
+</BorderPane>
